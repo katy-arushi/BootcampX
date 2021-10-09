@@ -14,9 +14,3 @@ CREATE TABLE assignment_submissions (
   duration INTEGER,
   submission_date DATE
 );
-
-
--- nwget https://raw.githubusercontent.com/lighthouse-labs/w5-sql-seeds/master/bootcampx_seeds/assignment_submissions_seeds.sql -O seeds/assignment_submissions_seeds.sql
-
--- nwget https://raw.githubusercontent.com/lighthouse-labs/w5-sql-seeds/master/bootcampx_seeds/assignments_seeds.sql -O seeds/assignments_seeds.sql
-
