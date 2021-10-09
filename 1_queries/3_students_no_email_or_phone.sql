@@ -1,3 +1,5 @@
+-- Get ALL of the students that don 't have an email or phone number.
+
 SELECT
   name,
   id,

@@ -1,3 +1,5 @@
+-- Get ALL of the students without a gmail.com or phone number.
+
 SELECT
   name,
   email,
