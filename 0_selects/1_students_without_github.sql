@@ -1,3 +1,5 @@
+-- Get ALL students without a Github username.
+
 SELECT
   id,
   name,
