@@ -22,8 +22,8 @@ ORDER BY teacher;
   `;
 
 pool.query(queryString, values)
-.then(res => {
-  res.rows.forEach(row => {
-    console.log(`${row.cohort}: ${row.teacher}`);
-  })
-}).catch(err => console.error('query error', err.stack));
+  .then(res => {
+    res.rows.forEach(row => {
+      console.log(`${row.cohort}: ${row.teacher}`);
+    });
+  }).catch(err => console.error('query error', err.stack));
